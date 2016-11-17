@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: deeppink;
+
+}
+.header1{
+    display: flex;
+    flex-direction: column;
+    background: url("../img/rickgif1.gif");
+    background-size: 100px 100px;
+    background-repeat: ;
+    height: 100px;
+
+
+}
+.titleheader1{
+    margin: auto;background-color: darkgrey;
+
+}
