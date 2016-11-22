@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Rick Astley</title>
     <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/snowflake.js"></script>
+    <script> hidesnow(); </script>
 </head>
 <body>
     <div class="main">
@@ -56,6 +58,12 @@ Look, just because I don't be givin' no man a foot massage don't make it right f
                 function playAudio() {
                    var audio = document.getElementById("ricksong")
                     audio.play();
+                    if (ie4up||ns6up){
+                        snowIE_NS6();
+                    		if (hidesnowtime>0)
+                    		setTimeout("hidesnow()", hidesnowtime*1000)
+                    		}
+                        showsnow();
                 }
             </script>
             <audio id="ricksong" src="./Rick_Assbutt.mp3" style="width: 100px"  loop="" ></audio>
