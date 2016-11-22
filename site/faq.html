@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rick Astley - FAQ</title>
+    <link rel="stylesheet" href="./css/faq.css">
+    <script src="./js/snowflake.js"></script>
+    <script> hidesnow(); </script>
+</head>
+<body>
+<div class="main">
+    <header class="header1">
+           <span class="ricktopheader">
+                Rick Astley
+           </span>
+    </header>
+
+    <nav class="ninetys_nav">
+        <div class="navbuttton">
+            <a href="index.html" title="Home" style="text-decoration: none " >Home</a>
+            <a href="gallery.html" title="Gallery" style="text-decoration: none " >Gallery</a>
+            <a href="biography.html" title="Biography" style="text-decoration: none " >Biography</a>
+
+        </div>
+    </nav>
+
+
+    <content class="main_wrapper">
+        <p>
+            faqs here
+        </p>
+    </content>
+
+
+
+    <footer class="footer1">
+
+        <button onclick="playAudio()" class="specialbutton">
+            Special Mode
+        </button>
+
+        <script>
+
+            function playAudio() {
+                var audio = document.getElementById("ricksong")
+                audio.play();
+                if (ie4up||ns6up){
+                    snowIE_NS6();
+                    if (hidesnowtime>0)
+                        setTimeout("hidesnow()", hidesnowtime*1000)
+                }
+                showsnow();
+            }
+        </script>
+        <audio id="ricksong" src="./Rick_Assbutt.mp3" style="width: 100px"  loop="" ></audio>
+
+    </footer>
+</div>
+</body>
+</html>

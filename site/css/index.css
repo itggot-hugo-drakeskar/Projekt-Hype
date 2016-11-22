@@ -71,7 +71,7 @@ body{
   background-image: url("../img/rickastley_edit.png");
   background-repeat: no-repeat;
   background-size: 100%;
-
+    margin:1px;
   flex-grow: 10;
 }
 
