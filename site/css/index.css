@@ -28,22 +28,32 @@ body{
     flex-direction: column;
     background: url("../img/rickgif1.gif");
     background-size: 100px 100px;
-    flex-grow: 1;
     justify-content: center;
     align-items: center;
+    height: 100px;
+
 }
-
-.span_css {
-  /*background-color: rgba(255, 255, 255, 0.7);
-
-  font-size: 100%;*/
+.ricktopheader{
     font-family: "comic sans ms";
     color: white;
+    font-size: 400%;
     text-shadow:
-            -1px -1px 0 #000,
-            1px -1px 0 #000,
-            -1px 1px 0 #000,
-            1px 1px 0 #000;
+            -2px -2px 0 #000,
+            2px -2px 0 #000,
+            -2px 2px 0 #000,
+            2px 2px 0 #000;
+}
+.span_css {
+    /*background-color: rgba(255, 255, 255, 0.7);
+
+    font-size: 100%;*/
+    font-family: "comic sans ms";
+    color: white;
+    text-shadow: -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+
 }
 
 .main_wrapper {
@@ -58,11 +68,11 @@ body{
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  background-image: url("../img/rick_astley_main.jpg");
+  background-image: url("../img/rickastley_edit.png");
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 750px 750px;
-  flex-grow: 6;
+  background-size: 100%;
+
+  flex-grow: 10;
 }
 
 .content_nav {
@@ -104,16 +114,16 @@ body{
 }
 
 .footer1 {
-  flex-grow: 1;
-  /*background: url("../img/rickgif1.gif");*/
-  background-size: 100px 100px;
+    flex-direction: row;
+    display: flex;
 }
 .specialbutton {
+
 
     background-color: hotpink; /* Green */
     border: 0;
     color: white;
-    padding: 15px 32px;
+    padding: 5px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
