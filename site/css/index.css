@@ -83,6 +83,7 @@ body{
 .content_biography {
   text-align: center;
   flex-grow: 1;
+  flex-shrink: 1;
   border: 2px solid rgba(0, 0, 0, 0.5);
   border-left: 0px;
   background-image: url("../img/biography.jpg");
