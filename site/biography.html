@@ -2,9 +2,73 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Rick Astley - Biography</title>
+    <title>Rick Astley</title>
+    <link rel="stylesheet" href="./css/biography.css">
+    <script src="./js/snowflake.js"></script>
+    <script> hidesnow(); </script>
 </head>
 <body>
+<div class="main">
+    <header class="header1">
+           <span class="span_css">
+                Rick Astley
+           </span>
+    </header>
 
+    <content class="main_wrapper">
+        <div class="content_main">
+            <h1 class="span_css">Rick astley fan-page, lorem ipsum</h1>
+            <h1 class="span_css"><!-- start slipsum code -->
+
+                Look, just because I don't be givin' no man a foot massage don't make it right for Marsellus to throw Antwone into a glass motherfuckin' house, fuckin' up the way the bitch talks. Motherfucker do that shit to me, he better paralyze my ass, 'cause I'll kill the motherfucker, know what I'm sayin'?
+
+                <!-- end slipsum code --></h1>
+        </div>
+        <nav class="content_nav">
+            <a href="" class="content_gallery">
+                <div>
+                    <h1 class="span_css"> gallery </h1>
+                </div>
+            </a>
+
+            <a href="" class="content_biography">
+                <div>
+                    <h1 class="span_css"> biography </h1>
+                </div>
+            </a>
+
+            <a href="" class="content_faq">
+                <div>
+                    <h1 class="span_css"> faq? </h1>
+                </div>
+            </a>
+        </nav>
+    </content>
+
+    <footer class="footer1">
+        <h3>
+            rick b
+        </h3>
+        <button onclick="playAudio()" class="specialbutton">
+            Special Mode
+        </button>
+
+        <script>
+
+            function playAudio() {
+                var audio = document.getElementById("ricksong")
+                audio.play();
+                if (ie4up||ns6up){
+                    snowIE_NS6();
+                    if (hidesnowtime>0)
+                        setTimeout("hidesnow()", hidesnowtime*1000)
+                }
+                showsnow();
+            }
+        </script>
+        <audio id="ricksong" src="./Rick_Assbutt.mp3" style="width: 100px"  loop="" ></audio>
+
+    </footer>
+</div>
 </body>
 </html>
