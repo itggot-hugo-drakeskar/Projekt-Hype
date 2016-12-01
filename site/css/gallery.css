@@ -1,14 +1,15 @@
+body {
+    background-color: hotpink;
+}
 
 .main{
     display: flex;
     flex-direction: column;
     width: 70vw;
-    height: 100vh;
     margin-left: auto;
     margin-right: auto;
     border: 1px solid black;
     box-shadow: 0px 20px 50px 0px rgba(0,0,0,0.75);
-
 }
 
 .header1{
@@ -48,8 +49,17 @@
   display: flex;
   flex-direction: column;
   background-color: white;
+    justify-content: center;
+    background: linear-gradient(to right, darkgrey, black, darkgrey);
 }
+.pics{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    box-shadow: 5px 5px 20px #ff00b1;
 
+}
 .button {
   background-color: #0087F1;
   height: 100%;
@@ -59,8 +69,8 @@
 .ninetys_nav {
   display: flex;
   flex-direction: row;
-  background-color: #002267;
-  border: 1px solid white;
+  background-color: darkseagreen;
+  border: 1px solid black;
     justify-content: center;
 }
 .navbuttton{
@@ -70,13 +80,13 @@
 
 
 }
-a{ color: white;
+a{ color: black;
     font-family: "comic sans ms";
     margin: 5px;
 
     padding: 0;
-    background-color: #003dbb;
-    border: 1px solid yellow;
+    background-color: #ffe865;
+    border: 1px solid black;
     padding-left: 5px;
     padding-right: 5px;
 }
@@ -87,9 +97,9 @@ a{ color: white;
 .specialbutton {
 
 
-    background-color: hotpink; /* Green */
+    background-color: darkseagreen; /* Green */
     border: 0;
-    color: white;
+    color: black   ;
     padding: 5px 10px;
     text-align: center;
     text-decoration: none;
