@@ -91,6 +91,7 @@ a{ color: black;
 .footer1 {
     flex-direction: row;
     display: flex;
+    border-top: 1px solid black;
 }
 .specialbutton {
 

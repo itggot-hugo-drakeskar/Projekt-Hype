@@ -71,7 +71,8 @@ body {
     display: flex;
     flex-direction: row;
     background-color: darkseagreen;
-    border: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
     justify-content: center;
 }
 .navbuttton{

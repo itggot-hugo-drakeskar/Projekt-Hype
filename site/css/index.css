@@ -92,6 +92,7 @@ body{
 .footer1 {
     flex-direction: row;
     display: flex;
+    background-color: hotpink;
 }
 .specialbutton {
 
